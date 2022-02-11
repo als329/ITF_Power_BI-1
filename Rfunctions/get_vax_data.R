@@ -64,12 +64,14 @@ function(rfunctions.dir) {
     drop_na(location) %>%
     filter(location != "European Union" & location != "Wales" & location != "Scotland" & location != "")
   
-  # Flag the last and first dates recorded for each country
-  vax_by_country <- vax %>%
-    arrange(desc(date)) %>%
-    group_by(iso_code) %>%
-    mutate(is_latest = row_number(iso_code) == 1) %>%
-    mutate(is_first = row_number(iso_code) == n())
+  # Flag the last and first dates recorded for each country AND indicator
+  vax_by_country <- vax 
+  # %>%
+  #   arrange(desc(date)) %>%
+  #   group_by(iso_code) %>%
+  #   mutate(is_latest = row_number(iso_code) == 1) %>%
+  #   mutate(is_first = row_number(iso_code) == n())
+
   
   map_location <- setNames(loc$location, loc$iso_code)
   all_dates <- seq.Date(from=as.Date(min(vax$date)), to=as.Date(max(vax$date)), by="day")
@@ -90,7 +92,20 @@ function(rfunctions.dir) {
   loc$vaccine_manufacturer <- str_trim(loc$vaccine_manufacturer)
     
   vax_all.long <- vax_all %>% 
-    gather("raw_field", "data_value", total_vaccinations:daily_people_vaccinated_per_hundred)
+    gather("raw_field", "data_value", total_vaccinations:daily_people_vaccinated_per_hundred) %>%
+    #flag latest for each variable 
+    filter(!is.na(data_value)) %>%
+      arrange(desc(date,raw_field)) %>%
+      group_by(iso_code,raw_field) %>%
+      mutate(is_latest = row_number(iso_code) == 1) %>%
+      mutate(is_first = row_number(iso_code) == n())
+  # %>%
+  #     complete(iso_code,raw_field, date = all_dates) %>%
+  #     ungroup()
+
+  
+  
+  
   vax_all.long$data_field <- map_data_field[vax_all.long$raw_field]
   vax_all.long$data_suffix <- map_data_suffix[vax_all.long$raw_field]
   vax_all.long$count_or_rate <- map_count_or_rate[vax_all.long$raw_field]
