@@ -117,11 +117,11 @@ function(rfunctions.dir) {
   count_vaccinated_breaks <- c(0,1e3,1e4,1e5,1e6,1e7,Inf)
   count_vaccinated_ticks <- c(1e3,1e4,1e5,1e6,1e7,5e8)
   rate_vaccinated_filter <- function(df) { return(df$raw_field == "people_vaccinated_per_hundred" | df$raw_field == "people_fully_vaccinated_per_hundred"| df$raw_field == "total_boosters_per_hundred")}
-  rate_vaccinated_breaks <- c(0,0.05,1,5,10,20,Inf)
-  rate_vaccinated_ticks <- c(0.05,1,5,10,20,100)
+  rate_vaccinated_breaks <- c(0,5,10,20,50,70,Inf)
+  rate_vaccinated_ticks <- c(5,10,20,50,70,100)
   rate_doses_filter <- function(df) { return(df$raw_field == "total_vaccinations_per_hundred" | df$raw_field == "daily_people_vaccinated_per_hundred")}
-  rate_doses_breaks <- c(0,0.05,1,5,10,20,Inf)
-  rate_doses_ticks <- c(0.05,1,5,10,20,200)
+  rate_doses_breaks <- c(0,5,10,20,50,70,Inf)
+  rate_doses_ticks <- c(5,10,20,50,70,200)
   count_daily_filter <- function(df) { return(df$raw_field == "daily_vaccinations"| df$raw_field =="daily_people_vaccinated")}
   count_daily_breaks <- c(0,10,1e2,1e3,1e4,1e5,Inf)
   count_daily_ticks <- c(10,1e2,1e3,1e4,1e5,5e6)
