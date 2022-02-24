@@ -54,7 +54,7 @@ function(rfunctions.dir) {
   vax <- vax_raw %>%
     mutate(date = as.Date(date, format="%Y-%m-%d")) %>%
     drop_na(iso_code) %>%
-    filter(iso_code != "OWID_EUN" & iso_code != "")
+    filter(!str_detect(iso_code,"OWID"))
   vax <- vax[, !(names(vax) %in% c("daily_vaccinations_raw"))]
   loc <- loc_raw %>%
     drop_na(iso_code) %>%
@@ -95,8 +95,8 @@ function(rfunctions.dir) {
     gather("raw_field", "data_value", total_vaccinations:daily_people_vaccinated_per_hundred) %>%
     #flag latest for each variable 
     filter(!is.na(data_value)) %>%
-      arrange(desc(date,raw_field)) %>%
       group_by(iso_code,raw_field) %>%
+      arrange(desc(date)) %>%
       mutate(is_latest = row_number(iso_code) == 1) %>%
       mutate(is_first = row_number(iso_code) == n())
   # %>%
