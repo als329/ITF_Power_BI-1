@@ -54,11 +54,13 @@ function(rfunctions.dir) {
   vax <- vax_raw %>%
     mutate(date = as.Date(date, format="%Y-%m-%d")) %>%
     drop_na(iso_code) %>%
+    mutate(iso_code = recode(iso_code, "OWID_KOS" = "XKX")) %>%
     filter(!str_detect(iso_code,"OWID"))
   vax <- vax[, !(names(vax) %in% c("daily_vaccinations_raw"))]
   loc <- loc_raw %>%
     drop_na(iso_code) %>%
-    filter(iso_code != "OWID_EUN" & iso_code != "") %>%
+    mutate(iso_code = recode(iso_code, "OWID_KOS" = "XKX")) %>%
+    filter(!str_detect(iso_code,"OWID")) %>%
     rename(vaccine_manufacturer_list = vaccines)
   man <- man_raw %>%
     drop_na(location) %>%

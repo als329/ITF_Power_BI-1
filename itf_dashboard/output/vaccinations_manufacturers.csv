@@ -210,9 +210,6 @@ El Salvador,SLV,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac
 El Salvador,SLV,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-02-15,Ministry of Health,https://covid19.gob.sv/,Pfizer/BioNTech
 El Salvador,SLV,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-02-15,Ministry of Health,https://covid19.gob.sv/,Sinopharm/Beijing
 El Salvador,SLV,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2022-02-15,Ministry of Health,https://covid19.gob.sv/,Sinovac
-England,OWID_ENG,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Moderna
-England,OWID_ENG,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Oxford/AstraZeneca
-England,OWID_ENG,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Pfizer/BioNTech
 Equatorial Guinea,GNQ,Sinopharm/Beijing,2022-01-18,Ministry of Health,https://guineasalud.org/estadisticas/,Sinopharm/Beijing
 Estonia,EST,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,National Health Board,https://opendata.digilugu.ee,Johnson&Johnson
 Estonia,EST,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,National Health Board,https://opendata.digilugu.ee,Moderna
@@ -349,8 +346,8 @@ Kazakhstan,KAZ,"QazVac, Sinopharm/Beijing, Sputnik V",2022-02-23,Government of K
 Kenya,KEN,"Oxford/AstraZeneca, Sputnik V",2022-02-23,Ministry of Health,https://www.health.go.ke/wp-content/uploads/2022/02/MINISTRY-OF-HEALTH-KENYA-COVID-19-IMMUNIZATION-STATUS-REPORT-22ND-FEBRUARY-20221.pdf,Oxford/AstraZeneca
 Kenya,KEN,"Oxford/AstraZeneca, Sputnik V",2022-02-23,Ministry of Health,https://www.health.go.ke/wp-content/uploads/2022/02/MINISTRY-OF-HEALTH-KENYA-COVID-19-IMMUNIZATION-STATUS-REPORT-22ND-FEBRUARY-20221.pdf,Sputnik V
 Kiribati,KIR,Oxford/AstraZeneca,2022-02-07,SPC Public Health Division,https://stats.pacificdata.org/vis?tm=covid&pg=0&df[ds]=SPC2&df[id]=DF_COVID_VACCINATION&df[ag]=SPC&df[vs]=1.0,Oxford/AstraZeneca
-Kosovo,OWID_KOS,"Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Ministry of Health,https://www.facebook.com/Ministria.Shendetesise.RKS/posts/256639609973195,Oxford/AstraZeneca
-Kosovo,OWID_KOS,"Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Ministry of Health,https://www.facebook.com/Ministria.Shendetesise.RKS/posts/256639609973195,Pfizer/BioNTech
+Kosovo,XKX,"Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Ministry of Health,https://www.facebook.com/Ministria.Shendetesise.RKS/posts/256639609973195,Oxford/AstraZeneca
+Kosovo,XKX,"Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Ministry of Health,https://www.facebook.com/Ministria.Shendetesise.RKS/posts/256639609973195,Pfizer/BioNTech
 Kuwait,KWT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",2022-02-20,World Health Organization,https://covid19.who.int/,Johnson&Johnson
 Kuwait,KWT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",2022-02-20,World Health Organization,https://covid19.who.int/,Moderna
 Kuwait,KWT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",2022-02-20,World Health Organization,https://covid19.who.int/,Oxford/AstraZeneca
@@ -481,12 +478,6 @@ North Macedonia,MKD,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sin
 North Macedonia,MKD,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik V",2022-02-13,Government of North Macedonia,https://worldhealthorg.shinyapps.io/EURO_COVID-19_vaccine_monitor/,Sinopharm/Beijing
 North Macedonia,MKD,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik V",2022-02-13,Government of North Macedonia,https://worldhealthorg.shinyapps.io/EURO_COVID-19_vaccine_monitor/,Sinovac
 North Macedonia,MKD,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik V",2022-02-13,Government of North Macedonia,https://worldhealthorg.shinyapps.io/EURO_COVID-19_vaccine_monitor/,Sputnik V
-Northern Cyprus,OWID_CYN,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinovac",2021-11-26,Ministry of Health,https://asi.saglik.gov.ct.tr/,Oxford/AstraZeneca
-Northern Cyprus,OWID_CYN,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinovac",2021-11-26,Ministry of Health,https://asi.saglik.gov.ct.tr/,Pfizer/BioNTech
-Northern Cyprus,OWID_CYN,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinovac",2021-11-26,Ministry of Health,https://asi.saglik.gov.ct.tr/,Sinovac
-Northern Ireland,OWID_NIR,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Moderna
-Northern Ireland,OWID_NIR,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Oxford/AstraZeneca
-Northern Ireland,OWID_NIR,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Pfizer/BioNTech
 Norway,NOR,"Moderna, Pfizer/BioNTech",2022-02-22,Norwegian Institute of Public Health,https://github.com/folkehelseinstituttet/surveillance_data,Moderna
 Norway,NOR,"Moderna, Pfizer/BioNTech",2022-02-22,Norwegian Institute of Public Health,https://github.com/folkehelseinstituttet/surveillance_data,Pfizer/BioNTech
 Oman,OMN,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinovac, Sputnik V",2022-02-14,World Health Organization,https://covid19.who.int/,Oxford/AstraZeneca
@@ -566,9 +557,6 @@ San Marino,SMR,"Pfizer/BioNTech, Sputnik V",2022-02-13,World Health Organization
 Sao Tome and Principe,STP,Oxford/AstraZeneca,2022-02-17,World Health Organization,https://africacdc.org/covid-19-vaccination/,Oxford/AstraZeneca
 Saudi Arabia,SAU,"Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-15,Saudi Health Council,https://covid19.moh.gov.sa/,Oxford/AstraZeneca
 Saudi Arabia,SAU,"Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-15,Saudi Health Council,https://covid19.moh.gov.sa/,Pfizer/BioNTech
-Scotland,OWID_SCT,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Moderna
-Scotland,OWID_SCT,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Oxford/AstraZeneca
-Scotland,OWID_SCT,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Pfizer/BioNTech
 Senegal,SEN,"Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing",2022-02-18,World Health Organization,https://covid19.who.int/,Johnson&Johnson
 Senegal,SEN,"Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing",2022-02-18,World Health Organization,https://covid19.who.int/,Oxford/AstraZeneca
 Senegal,SEN,"Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing",2022-02-18,World Health Organization,https://covid19.who.int/,Sinopharm/Beijing
@@ -728,9 +716,6 @@ Vietnam,VNM,"Abdala, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Bei
 Vietnam,VNM,"Abdala, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",2022-02-22,World Health Organization,https://suckhoedoisong.vn/ngay-23-2-lan-dau-so-mac-covid-19-moi-tang-vot-len-60355-ca-169220223175137355.htm,Pfizer/BioNTech
 Vietnam,VNM,"Abdala, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",2022-02-22,World Health Organization,https://suckhoedoisong.vn/ngay-23-2-lan-dau-so-mac-covid-19-moi-tang-vot-len-60355-ca-169220223175137355.htm,Sinopharm/Beijing
 Vietnam,VNM,"Abdala, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",2022-02-22,World Health Organization,https://suckhoedoisong.vn/ngay-23-2-lan-dau-so-mac-covid-19-moi-tang-vot-len-60355-ca-169220223175137355.htm,Sputnik V
-Wales,OWID_WLS,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Moderna
-Wales,OWID_WLS,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Oxford/AstraZeneca
-Wales,OWID_WLS,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-02-22,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/vaccinations,Pfizer/BioNTech
 Wallis and Futuna,WLF,Moderna,2022-01-18,SPC Public Health Division,https://stats.pacificdata.org/vis?tm=covid&pg=0&df[ds]=SPC2&df[id]=DF_COVID_VACCINATION&df[ag]=SPC&df[vs]=1.0,Moderna
 Yemen,YEM,"Johnson&Johnson, Oxford/AstraZeneca, Sinovac",2022-02-17,World Health Organization,https://covid19.who.int/,Johnson&Johnson
 Yemen,YEM,"Johnson&Johnson, Oxford/AstraZeneca, Sinovac",2022-02-17,World Health Organization,https://covid19.who.int/,Oxford/AstraZeneca
