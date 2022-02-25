@@ -59,15 +59,15 @@ cat_num,raw_field,data_field,data_suffix,count_or_rate,tick_value
 4,daily_people_vaccinated_per_hundred,Daily People Vaccinated (7-day average),Per 100 people,Rate,50
 5,daily_people_vaccinated_per_hundred,Daily People Vaccinated (7-day average),Per 100 people,Rate,70
 6,daily_people_vaccinated_per_hundred,Daily People Vaccinated (7-day average),Per 100 people,Rate,200
-1,total_boosters,Total Boosters, ,Count,1000
-2,total_boosters,Total Boosters, ,Count,10000
-3,total_boosters,Total Boosters, ,Count,1e+05
-4,total_boosters,Total Boosters, ,Count,1e+06
-5,total_boosters,Total Boosters, ,Count,1e+07
-6,total_boosters,Total Boosters, ,Count,5e+08
-1,total_boosters_per_hundred,Total Boosters,Per 100 people,Rate,5
-2,total_boosters_per_hundred,Total Boosters,Per 100 people,Rate,10
-3,total_boosters_per_hundred,Total Boosters,Per 100 people,Rate,20
-4,total_boosters_per_hundred,Total Boosters,Per 100 people,Rate,50
-5,total_boosters_per_hundred,Total Boosters,Per 100 people,Rate,70
-6,total_boosters_per_hundred,Total Boosters,Per 100 people,Rate,100
+1,total_boosters,Cumulative Booster Doses Administered, ,Count,1000
+2,total_boosters,Cumulative Booster Doses Administered, ,Count,10000
+3,total_boosters,Cumulative Booster Doses Administered, ,Count,1e+05
+4,total_boosters,Cumulative Booster Doses Administered, ,Count,1e+06
+5,total_boosters,Cumulative Booster Doses Administered, ,Count,1e+07
+6,total_boosters,Cumulative Booster Doses Administered, ,Count,5e+08
+1,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,5
+2,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,10
+3,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,20
+4,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,50
+5,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,70
+6,total_boosters_per_hundred,Cumulative Booster Doses Administered,Per 100 people,Rate,100

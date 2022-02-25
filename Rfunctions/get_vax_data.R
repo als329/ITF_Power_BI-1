@@ -28,7 +28,7 @@ function(rfunctions.dir) {
   
   map_data_field <- setNames(c("Cumulative Doses Administered", "Cumulative Doses Administered", "Cumulative People Vaccinated (1 or more)", "Cumulative People Vaccinated (1 or more)",
                                "Cumulative People Vaccinated (Fully)", "Cumulative People Vaccinated (Fully)", "Daily Doses Administered (7-day average)", "Daily Doses Administered (7-day average)",
-                              "Daily People Vaccinatd  (7-day average)", "Daily People Vaccinated (7-day average)", "Total Boosters", "Total Boosters"),
+                              "Daily People Vaccinatd  (7-day average)", "Daily People Vaccinated (7-day average)", "Cumulative Booster Doses Administered", "Cumulative Booster Doses Administered"),
                              c("total_vaccinations", "total_vaccinations_per_hundred", "people_vaccinated", "people_vaccinated_per_hundred",
                                "people_fully_vaccinated", "people_fully_vaccinated_per_hundred", "daily_vaccinations", "daily_vaccinations_per_million",
                                "daily_people_vaccinaed","daily_people_vaccinated_per_hundred","total_boosters","total_boosters_per_hundred"))
